@@ -1,19 +1,16 @@
-# Generate by command:
-# pipreqs .  --force 
-# https://stackoverflow.com/questions/31684375/automatically-create-requirements-txt
-
-Flask_SQLAlchemy==2.1
-Flask_Mail==0.9.1
-Flask_Babel==0.11.2
-Flask_Migrate==2.0.2
 Flask==0.12
-WTForms==2.1
-Fabric3==1.14.post1
-Flask_Bootstrap==3.3.7.1
 Flask_Script==2.0.5
-Flask_Admin==1.5.0
-pytest==3.0.5
-alembic==0.9.7
-Flask_WTF==0.14.2
 SQLAlchemy==1.2.2
+Flask_Admin==1.5.0
+alembic==0.9.7
+Flask_SQLAlchemy==2.1
+Fabric3==1.14.post1
+Flask_Mail==0.9.1
+Flask_WTF==0.14.2
+Flask_Babel==0.11.2
+Flask_Bootstrap==3.3.7.1
+Flask-User==0.6.19
+pytest==3.0.5
+Flask_Migrate==2.0.2
+WTForms==2.1
 Fabric==1.14.0
