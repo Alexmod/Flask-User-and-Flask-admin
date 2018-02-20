@@ -19,7 +19,7 @@ This code base serves as starting point for writing your next Flask application.
 
 ## Setting up a development environment
 
-We assume that you have `git` and `virtualenv` and `virtualenvwrapper` installed.
+We assume that you have `git` and `virtualenv` installed.
 
     cd ~
     virtualenv env
