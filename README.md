@@ -4,7 +4,6 @@ This code base serves as starting point for writing your next Flask application.
 
 ## Code characteristics
 
-* Tested on Python 2.6, 2.7, 3.3, 3.4, 3.5 and 3.6
 * Well organized directories with lots of comments
     * app
         * commands
@@ -22,25 +21,17 @@ This code base serves as starting point for writing your next Flask application.
 
 We assume that you have `git` and `virtualenv` and `virtualenvwrapper` installed.
 
-    # Clone the code repository into ~/dev/my_app
-    mkdir -p ~/dev
-    cd ~/dev
-    git clone https://github.com/lingthio/Flask-User-starter-app.git my_app
-
-    # Create the 'my_app' virtual environment
-    mkvirtualenv -p PATH/TO/PYTHON my_app
-
-    # Install required Python packages
-    cd ~/dev/my_app
-    workon my_app
+    cd ~
+    virtualenv env
+    . env/bin/activate
+    mkdir -p ~/www/my_app
+    cd www
+    git clone https://github.com/Alexmod/Flask-User-and-Flask-admin.git  my_app
+    cd my_app/
     pip install -r requirements.txt
 
-
+   
 # Configuring SMTP
-
-Copy the `local_settings_example.py` file to `local_settings.py`.
-
-    cp app/local_settings_example.py app/local_settings.py
 
 Edit the `local_settings.py` file.
 
