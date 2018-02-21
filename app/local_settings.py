@@ -1,3 +1,4 @@
+from datetime import timedelta
 import os
 
 # *****************************
@@ -11,6 +12,8 @@ DEBUG = True
 # Generate a safe one with:
 #    python -c "import os; print(repr(os.urandom(24)));"
 SECRET_KEY = 'DO_NOT_use_Unsecure_Secrets_in_production_environments'
+COOKIE_SECURE = 'Secure'
+COOKIE_DURATION = timedelta(days=365)
 
 # SQLAlchemy settings
 SQLALCHEMY_DATABASE_URI = 'sqlite:///../app.sqlite'
