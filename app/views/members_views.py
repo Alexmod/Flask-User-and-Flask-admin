@@ -20,7 +20,7 @@ def set_lang(lang):
     gettext.install('lang', i18n_dir)
     trans_file = i18n_dir + lang + '/LC_MESSAGES/flask_user'
     tr = gettext.translation(trans_file, 'locale',  languages=[lang])
-    tr.install(True)
+    _ = tr.gettext
     app.jinja_env.install_gettext_translations(tr)
 
 
