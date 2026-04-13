@@ -10,7 +10,7 @@ Flask_WTF==0.14.3
 Flask_Babel==2.0.0
 Flask_Bootstrap==3.3.7.1
 Flask-User==0.6.19
-pytest==3.0.5
+pytest==9.0.3
 Flask_Migrate==2.0.2
 WTForms==2.1
 Fabric==1.14.0
